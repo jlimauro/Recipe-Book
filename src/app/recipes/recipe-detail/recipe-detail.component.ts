@@ -18,8 +18,7 @@ export class RecipeDetailComponent implements OnInit {
   }
 
   onAddToShoppingList() {
-    console.log("button pressed");
-    this.sls.addItems(this.selectedRecipe.ingrediants);
+    this.sls.addItems(this.selectedRecipe.ingredients);
   }
 
 }
